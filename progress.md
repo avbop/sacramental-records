@@ -28,7 +28,7 @@
 # Release considerations
 - [x] set up hosting on github.io
     - <https://avbop.github.io/sacramental-records/>
-- [ ] some clear way of indicating beta/draft until it's in reasonably good shape
+- [x] some clear way of indicating beta/draft until it's in reasonably good shape
 - [ ] error checking
     1. [ ] forum
     2. [ ] a few priests in parishes
