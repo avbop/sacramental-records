@@ -1,24 +1,29 @@
 # Core logic
-- [ ] layout of information (mostly HTML)
+- [x] layout of information (mostly HTML)
     - [x] recipient section
     - [x] minister section
     - [x] ceremony section
     - [x] faculties section
-    - [ ] output (registers and notification) section
+    - [x] output (registers and notification) section
 - [ ] processing of information (mostly JS)
     - [ ] show/hide display pieces based on input
-        - [ ] complete `hide-print` and `hide-web` setup described below first
-    - [ ] generate registers and notification instructions
-    - [ ] show warnings/errors about inconsistent information
+        - [x] complete `hide-print` and `hide-web` setup described below first
+        - possible restructuring:
+            - tag elements with something like `data-ifbaptised`, `data-iftobaptise`, `data-ifpriorfullcommunion`, `data-ifadopted`, etc
+            - in code, calculate which sacraments are to be administered, which past conditions apply, etc, and set true/false booleans corresponding to the `data-if*` conditions
+            - then, show/hide based on `data-if*` and the calculated booleans
+            - probably still a few edge cases that need to be handled manually, especially where the order matters or more than one condition needs to be considered
+    - [ ] show/hide registers and notification instructions
 
 # Styling
-- [ ] add 'unknown' option to the yes/no choices: this will keep the relevant info boxes visible for print mode
+- [ ] add 'unknown' option to the yes/no choices, and treat 'unknown' as 'display the relevant item'
+    - this will keep the relevant info boxes visible for print mode
     - eg: user doesn't know before meeting whether or not person has been baptised
 - [x] use `hide-print` and `hide-web` classes instead of messing with `display` in the JS
     - reason: some things are visible in one mode but not the other
     - conveniently, this will also automatically restore the correct `block`, `inline`, etc
     - set up a helper function to do this
-    - when needed, use `.hide #loremipsum` for particular cases that depend on print v web
+    - when needed, select with `.hide #elementid` for particular cases that depend on print v web
 - [ ] figure out display of `select`s in print mode
     - one idea: replace with checkboxes or radio buttons
     - another idea: use JS to generate an `ul` with the same options that only shows when printing
@@ -41,10 +46,11 @@
     - [ ] set up code for a suitable footnote or margin note system
     - [ ] insert the citations
     - [ ] write explanatory notes about interpretation of the law where appropriate
-
-# Optional extras
+- [ ] show warnings/errors about inconsistent information
 - [ ] instructions only for printed version
     - eg: 'If yes, cross out section B.'
+
+# Low-priority possible additions
 - [ ] page(s) with brief descriptions of non-initiation sacraments that are recorded
     - or not recorded, for confession
 - [ ] page(s) about recording a funeral
