@@ -14,10 +14,11 @@
 # Styling
 - [ ] add 'unknown' option to the yes/no choices: this will keep the relevant info boxes visible for print mode
     - eg: user doesn't know before meeting whether or not person has been baptised
-- [ ] use `hide-print` and `hide-web` classes instead of messing with `display` in the JS
+- [x] use `hide-print` and `hide-web` classes instead of messing with `display` in the JS
     - reason: some things are visible in one mode but not the other
     - conveniently, this will also automatically restore the correct `block`, `inline`, etc
     - set up a helper function to do this
+    - when needed, use `.hide #loremipsum` for particular cases that depend on print v web
 - [ ] figure out display of `select`s in print mode
     - one idea: replace with checkboxes or radio buttons
     - another idea: use JS to generate an `ul` with the same options that only shows when printing
