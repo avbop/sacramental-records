@@ -26,7 +26,8 @@
 - [ ] make sure links and buttons are suitably displayed in print mode
 
 # Release considerations
-- [ ] set up hosting on github.io
+- [x] set up hosting on github.io
+    - <https://avbop.github.io/sacramental-records/>
 - [ ] some clear way of indicating beta/draft until it's in reasonably good shape
 - [ ] error checking
     1. [ ] forum
