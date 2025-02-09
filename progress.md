@@ -3,7 +3,7 @@
     - [x] recipient section
     - [x] minister section
     - [x] ceremony section
-    - [ ] faculties section
+    - [x] faculties section
     - [ ] output (registers and notification) section
 - [ ] processing of information (mostly JS)
     - [ ] show/hide display pieces based on input
