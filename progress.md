@@ -5,8 +5,8 @@
     - [x] ceremony section
     - [x] faculties section
     - [x] output (registers and notification) section
-- [ ] processing of information (mostly JS)
-    - [ ] show/hide display pieces based on input
+- [x] processing of information (mostly JS)
+    - [x] show/hide display pieces based on input
         - [x] complete `hide-print` and `hide-web` setup described below first
         - possible restructuring:
             - tag elements with something like `data-ifbaptised`, `data-iftobaptise`, `data-ifpriorfullcommunion`, `data-ifadopted`, etc
@@ -15,6 +15,7 @@
             - probably still a few edge cases that need to be handled manually, especially where the order matters or more than one condition needs to be considered
     - [x] show/hide registers and notification instructions
     - [x] show/hide sponsor fields
+- [ ] should `orthodox` baptism ignore a later change to `protestant` when considering ascription?
 
 # Styling
 - [ ] add 'unknown' option to the yes/no choices, and treat 'unknown' as 'display the relevant item'
@@ -30,7 +31,7 @@
     - another idea: use JS to generate an `ul` with the same options that only shows when printing
         - unless user has chosen yes or no, in which case we need only print that option
         - and can omit 'unknown' option from print version, since that's really only useful for the show/hide code of the web version
-- [ ] make sure links and buttons are suitably displayed in print mode
+- [x] make sure links and buttons are suitably displayed in print mode
 
 # Release considerations
 - [x] set up hosting on github.io
@@ -47,9 +48,10 @@
     - [ ] set up code for a suitable footnote or margin note system
     - [ ] insert the citations
     - [ ] write explanatory notes about interpretation of the law where appropriate
-- [ ] show warnings/errors about inconsistent information
 - [ ] instructions only for printed version
     - eg: 'If yes, cross out section B.'
+- [ ] floating, clickable table of contents
+    - this might be unnecessary if each section has a useful background color
 
 # Low-priority possible additions
 - [ ] page(s) with brief descriptions of non-initiation sacraments that are recorded
@@ -60,6 +62,7 @@
 - [ ] formatting for mobile
 - [ ] `<select>` for options for ascription
     - see <https://www.catholic-hierarchy.org/rite/>
+- [ ] show warnings/errors about inconsistent information
 
 # Public domain
 This file is released to the public domain and is marked with [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
