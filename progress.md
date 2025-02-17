@@ -57,6 +57,8 @@
     - probably a brief description rather than a full form, since the law doesn't indicate anything in particular
 - [ ] notes about places that are commonly modified by particular law
 - [ ] formatting for mobile
+- [ ] `<select>` for options for ascription
+    - see <https://www.catholic-hierarchy.org/rite/>
 
 # Public domain
 This file is released to the public domain and is marked with [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
