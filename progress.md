@@ -13,7 +13,8 @@
             - in code, calculate which sacraments are to be administered, which past conditions apply, etc, and set true/false booleans corresponding to the `data-if*` conditions
             - then, show/hide based on `data-if*` and the calculated booleans
             - probably still a few edge cases that need to be handled manually, especially where the order matters or more than one condition needs to be considered
-    - [ ] show/hide registers and notification instructions
+    - [x] show/hide registers and notification instructions
+    - [x] show/hide sponsor fields
 
 # Styling
 - [ ] add 'unknown' option to the yes/no choices, and treat 'unknown' as 'display the relevant item'
