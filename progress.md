@@ -53,7 +53,7 @@
 - [ ] floating, clickable table of contents
     - this might be unnecessary if each section has a useful background color
 
-# Low-priority possible additions
+# Low-priority possible modifications
 - [ ] page(s) with brief descriptions of non-initiation sacraments that are recorded
     - or not recorded, for confession
 - [ ] page(s) about recording a funeral
@@ -63,6 +63,13 @@
 - [ ] `<select>` for options for ascription
     - see <https://www.catholic-hierarchy.org/rite/>
 - [ ] show warnings/errors about inconsistent information
+- [ ] provide some means of save and restore
+    - must be client-side only: if the user wants to move it to another computer, he must do so himself and thereby take responsibility for data privacy
+    - include warnings about data privacy (eg don't save on public machines)
+    - probably a query URL that is parsed client-side: this could be easily bookmarked or copy/pasted
+    - maybe: localStorage, indexedDB, or the like (but this is probably too invisible/confusing for most users, and wouldn't easily transfer eg from laptop to office desktop)
+- [ ] partial and/or asynchronous data parsing and UI updates
+    - standard of urgency: if there's no visible delay in updating the form, this remains low priority
 
 # Public domain
 This file is released to the public domain and is marked with [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
