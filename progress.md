@@ -47,14 +47,13 @@
 - [ ] well-designed borders, colours, etc
     - should probably be different for print v web
     - [x] choose a font better suited to the web (Charter has strange baseline spacing)
+    - [ ] consult
 - [ ] citations to canon law
     - [ ] set up code for a suitable footnote or margin note system
     - [ ] insert the citations
     - [ ] write explanatory notes about interpretation of the law where appropriate
 - [ ] instructions only for printed version
     - eg: 'If yes, cross out section B.'
-- [ ] floating, clickable table of contents
-    - this might be unnecessary if each section has a useful background color
 
 # Low-priority possible modifications
 - [ ] page(s) with brief descriptions of non-initiation sacraments that are recorded
@@ -73,6 +72,8 @@
     - maybe: localStorage, indexedDB, or the like (but this is probably too invisible/confusing for most users, and wouldn't easily transfer eg from laptop to office desktop)
 - [ ] partial and/or asynchronous data parsing and UI updates
     - standard of urgency: if there's no visible delay in updating the form, this remains low priority
+- [ ] floating, clickable table of contents
+    - this might be unnecessary if each section is otherwise usefully distinguished
 
 # Public domain
 This file is released to the public domain and is marked with [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
