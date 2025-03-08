@@ -16,6 +16,8 @@
     - [x] show/hide registers and notification instructions
     - [x] show/hide sponsor fields
 - [x] `orthodox` baptism should ignore a later change to `protestant` when considering ascription (per forum opinion)
+- [ ] hide irrelevant confirmation faculty choices (baptism, reception into full communion)
+- [ ] if person only needs confirmation and the minister is a deacon, hide the summary and registers
 
 # Styling
 - [ ] add 'unknown' option to the yes/no choices, and treat 'unknown' as 'display the relevant item'
