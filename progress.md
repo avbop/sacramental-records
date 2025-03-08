@@ -15,7 +15,7 @@
             - probably still a few edge cases that need to be handled manually, especially where the order matters or more than one condition needs to be considered
     - [x] show/hide registers and notification instructions
     - [x] show/hide sponsor fields
-- [ ] `orthodox` baptism should ignore a later change to `protestant` when considering ascription (per forum opinion)
+- [x] `orthodox` baptism should ignore a later change to `protestant` when considering ascription (per forum opinion)
 
 # Styling
 - [ ] add 'unknown' option to the yes/no choices, and treat 'unknown' as 'display the relevant item'
