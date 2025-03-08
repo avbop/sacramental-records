@@ -44,7 +44,7 @@
 # Desired extensions
 - [ ] well-designed borders, colours, etc
     - should probably be different for print v web
-    - [ ] choose a font better suited to the web (Charter has strange baseline spacing)
+    - [x] choose a font better suited to the web (Charter has strange baseline spacing)
 - [ ] citations to canon law
     - [ ] set up code for a suitable footnote or margin note system
     - [ ] insert the citations
