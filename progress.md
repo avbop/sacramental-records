@@ -49,7 +49,7 @@
     - [x] choose a font better suited to the web (Charter has strange baseline spacing)
     - [ ] consult
 - [ ] citations to canon law
-    - [ ] set up code for a suitable footnote or margin note system
+    - [x] set up code for a suitable footnote or margin note system
     - [ ] insert the citations
     - [ ] write explanatory notes about interpretation of the law where appropriate
 - [ ] instructions only for printed version
