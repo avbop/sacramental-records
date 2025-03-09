@@ -18,6 +18,7 @@
 - [x] `orthodox` baptism should ignore a later change to `protestant` when considering ascription (per forum opinion)
 - [ ] hide irrelevant confirmation faculty choices (baptism, reception into full communion)
 - [ ] if person only needs confirmation and the minister is a deacon, hide the summary and registers
+- [ ] if creating a new baptismal/reception record, also ask about marriage
 
 # Styling
 - [ ] add 'unknown' option to the yes/no choices, and treat 'unknown' as 'display the relevant item'
@@ -51,7 +52,12 @@
 - [ ] citations to canon law
     - [x] set up code for a suitable footnote or margin note system
     - [ ] insert the citations
+        - [x] canons on recording
+        - [ ] canons on faculties
     - [ ] write explanatory notes about interpretation of the law where appropriate
+        - [ ] comments on full initiation immediately for those above the age of reason
+        - [ ] comment about maintaining ascription even if person considers himself Protestant/atheist/etc
+        - [x] comment about validity of sacraments outside of Catholic Church
 - [ ] instructions only for printed version
     - eg: 'If yes, cross out section B.'
 
